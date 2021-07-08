@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap");
+.button {
+  background-color: #00BFA6;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 15px 60px;
+  border: unset;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+body,
+html {
+  margin: 0;
+  font-family: 'Oswald', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #000;
+}
+
+.app {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.page .page-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.page .page-title {
+  font-size: 2.5rem;
+  padding-bottom: 40px;
+}
+/*# sourceMappingURL=app.css.map */

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
+@import "./variables.scss";
+@import "./breakpoints.scss";
+@import "./components//button.scss";
+
+body,
+html {
+    margin: 0;
+    font-family: 'Oswald', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: $black;
+}
+
+.app{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
+}
+
+.page{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    color: $white;
+    flex-direction: column;
+    .page-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .page-title{
+        font-size: 2.5rem;
+        padding-bottom: 40px;
+    }
+
+}
